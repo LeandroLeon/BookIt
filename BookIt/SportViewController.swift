@@ -19,6 +19,8 @@ class SportViewController: UIViewController, UITableViewDelegate, UITableViewDat
         self.tableView.delegate = self
         self.tableView.dataSource = self
         
+        var controler = PersistenceController()
+        controler.initializeData()
         //self.tableView.reloadData() // Recarga la tabla
         self.tableView.separatorColor = UIColor.white
         

@@ -6,20 +6,31 @@
 //  Copyright © 2017 Leandro. All rights reserved.
 //
 
-import Foundation
+import ObjectMapper
 
-class Field{
+class Field : Equatable, Mappable{
     
-    var name: String
-    let sport: SportEnum
-    let pricePerHour: Double
-    var isRentable: Bool
+    var name: String?
+    var sport: SportEnum?
+    var pricePerHour: Double?
+    var isRentable: Bool?
     
+    required init?(map: Map) {
+        
+    }
     
-    init(_ name: String, sport: SportEnum, pricePerHour: Double){
-        self.name = name
-        self.sport = sport
-        self.pricePerHour = pricePerHour
-        self.isRentable = true
+    func mapping(map: Map){
+        name <- map["Field.name"]
+        sport <- map["Field.sport"]
+        pricePerHour <- map["Field.pricePerHour"]
+        isRentable <- map["Field.isRentable"]
+    }
+    
+    public static func ==(first: Field, second: Field) -> Bool{
+        return
+            first.name == second.name &&
+            first.sport == second.sport &&
+            first.pricePerHour == second.pricePerHour &&
+            first.isRentable == second.isRentable
     }
 }

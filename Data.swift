@@ -8,17 +8,16 @@
 
 class Data {
     
-    static var shareDate: Data = Data()
-    var fields : [Field]
+    static var shareData: Data = Data()
+    var fields : [Field] = []
     
     private init(){
-        return self.sharedDate
     }
     
     func getFields(of sport: SportEnum) -> Array<Field>{
         var result : Array<Field> = []
         for sport in self.fields{
-            if sport.sport == sport{
+            if sport.sport == sport.sport{
                 result.append(sport)
             }
         }
@@ -26,16 +25,17 @@ class Data {
     }
     
     func addField(_ field: Field){
-        self.fields += field
+        self.fields.append(field)
     }
     
-    func removeField(_ field: Field) -> Field{
+    func removeField(_ field: Field) -> Field?{
         for data in self.fields{
             if data == field{
                 if let index = self.fields.index(of: data){
-                    self.fields.remove(at: index)
+                    return self.fields.remove(at: index)
                 }
             }
         }
+        return nil
     }
 }
