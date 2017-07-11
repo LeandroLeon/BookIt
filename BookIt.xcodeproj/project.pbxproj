@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D3005FAA1F1521F000FCD014 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3005FA91F1521F000FCD014 /* Data.swift */; };
+		D3005FAE1F1527CF00FCD014 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3005FAD1F1527CF00FCD014 /* PersistenceController.swift */; };
 		D322F4731F0BF8860097BD97 /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D322F4721F0BF8860097BD97 /* CustomCollectionViewCell.swift */; };
 		D322F4751F0BF9B70097BD97 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D322F4741F0BF9B70097BD97 /* CalendarViewController.swift */; };
 		D363AAC21F0518F600C26579 /* SportTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D363AAC11F0518F600C26579 /* SportTableViewCell.swift */; };
@@ -28,7 +29,7 @@
 		D3BFC4601F0E9EC8004EC59D /* FieldTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BFC45F1F0E9EC8004EC59D /* FieldTableViewCell.swift */; };
 		D3CE406E1F0CF5ED009B81EA /* blackSetting.png in Resources */ = {isa = PBXBuildFile; fileRef = D3CE406D1F0CF5ED009B81EA /* blackSetting.png */; };
 		D3D644911F0A3D2A003ACC8C /* close-button 24 y negro.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D644901F0A3D2A003ACC8C /* close-button 24 y negro.png */; };
-		D3E62C041F0661C500727D2E /* Fields.json in Resources */ = {isa = PBXBuildFile; fileRef = D3E62C031F0661C500727D2E /* Fields.json */; };
+		D3E62C041F0661C500727D2E /* fields.json in Resources */ = {isa = PBXBuildFile; fileRef = D3E62C031F0661C500727D2E /* fields.json */; };
 		D3E62C0A1F067FB600727D2E /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = D3E62C091F067FB600727D2E /* settings.png */; };
 		D3E62C0C1F06802600727D2E /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E62C0B1F06802600727D2E /* SettingsViewController.swift */; };
 		D3EEF4191F0BBF6700B88557 /* Pods in Resources */ = {isa = PBXBuildFile; fileRef = D3EEF4181F0BBF6700B88557 /* Pods */; };
@@ -55,6 +56,7 @@
 /* Begin PBXFileReference section */
 		88F831C4AECA2D8A4FFF7E0F /* Pods-BookIt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookIt.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BookIt/Pods-BookIt.debug.xcconfig"; sourceTree = "<group>"; };
 		D3005FA91F1521F000FCD014 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		D3005FAD1F1527CF00FCD014 /* PersistenceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
 		D322F4721F0BF8860097BD97 /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
 		D322F4741F0BF9B70097BD97 /* CalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
 		D363AAC11F0518F600C26579 /* SportTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SportTableViewCell.swift; sourceTree = "<group>"; };
@@ -81,7 +83,7 @@
 		D3BFC45F1F0E9EC8004EC59D /* FieldTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FieldTableViewCell.swift; sourceTree = "<group>"; };
 		D3CE406D1F0CF5ED009B81EA /* blackSetting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blackSetting.png; path = ../../blackSetting.png; sourceTree = "<group>"; };
 		D3D644901F0A3D2A003ACC8C /* close-button 24 y negro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "close-button 24 y negro.png"; path = "../../close-button 24 y negro.png"; sourceTree = "<group>"; };
-		D3E62C031F0661C500727D2E /* Fields.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Fields.json; sourceTree = "<group>"; };
+		D3E62C031F0661C500727D2E /* fields.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fields.json; sourceTree = "<group>"; };
 		D3E62C091F067FB600727D2E /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = settings.png; path = ../settings.png; sourceTree = "<group>"; };
 		D3E62C0B1F06802600727D2E /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		D3EEF4181F0BBF6700B88557 /* Pods */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Pods; sourceTree = "<group>"; };
@@ -218,6 +220,7 @@
 				D36B519D1F0402370087E5B9 /* SportViewController.swift */,
 				D3E62C0B1F06802600727D2E /* SettingsViewController.swift */,
 				D3BFC45D1F0E95EE004EC59D /* BookViewController.swift */,
+				D3005FAD1F1527CF00FCD014 /* PersistenceController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -230,7 +233,7 @@
 				D3E62C091F067FB600727D2E /* settings.png */,
 				D363AAC71F052D1400C26579 /* futbol.jpeg */,
 				D363AAC31F05251100C26579 /* DefaultImage.png */,
-				D3E62C031F0661C500727D2E /* Fields.json */,
+				D3E62C031F0661C500727D2E /* fields.json */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -356,7 +359,7 @@
 				D363AAC81F052D1500C26579 /* futbol.jpeg in Resources */,
 				D36B51A31F0402370087E5B9 /* Assets.xcassets in Resources */,
 				D36B51A11F0402370087E5B9 /* Main.storyboard in Resources */,
-				D3E62C041F0661C500727D2E /* Fields.json in Resources */,
+				D3E62C041F0661C500727D2E /* fields.json in Resources */,
 				D363AAC41F05251100C26579 /* DefaultImage.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,6 +440,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D363AACA1F05760E00C26579 /* SportEnum.swift in Sources */,
+				D3005FAE1F1527CF00FCD014 /* PersistenceController.swift in Sources */,
 				D3BFC45E1F0E95EE004EC59D /* BookViewController.swift in Sources */,
 				D363AAC21F0518F600C26579 /* SportTableViewCell.swift in Sources */,
 				D3E62C0C1F06802600727D2E /* SettingsViewController.swift in Sources */,

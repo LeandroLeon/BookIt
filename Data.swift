@@ -11,7 +11,7 @@ class Data {
     static var shareDate: Data = Data()
     var fields : [Field]
     
-    init(){
+    private init(){
         return self.sharedDate
     }
     
