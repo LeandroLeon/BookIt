@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D3005FAA1F1521F000FCD014 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3005FA91F1521F000FCD014 /* Data.swift */; };
 		D322F4731F0BF8860097BD97 /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D322F4721F0BF8860097BD97 /* CustomCollectionViewCell.swift */; };
 		D322F4751F0BF9B70097BD97 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D322F4741F0BF9B70097BD97 /* CalendarViewController.swift */; };
 		D363AAC21F0518F600C26579 /* SportTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D363AAC11F0518F600C26579 /* SportTableViewCell.swift */; };
@@ -22,7 +23,6 @@
 		D36B51BC1F0402370087E5B9 /* BookItUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36B51BB1F0402370087E5B9 /* BookItUITests.swift */; };
 		D36B51D11F041EE10087E5B9 /* Field.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36B51D01F041EE10087E5B9 /* Field.swift */; };
 		D36B51D31F041FC60087E5B9 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36B51D21F041FC60087E5B9 /* User.swift */; };
-		D3B6365D1F13A8CF003EC7E4 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B6365C1F13A8CF003EC7E4 /* PersistenceController.swift */; };
 		D3BFC45C1F0E94D2004EC59D /* FieldCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BFC45B1F0E94D2004EC59D /* FieldCollectionViewCell.swift */; };
 		D3BFC45E1F0E95EE004EC59D /* BookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BFC45D1F0E95EE004EC59D /* BookViewController.swift */; };
 		D3BFC4601F0E9EC8004EC59D /* FieldTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BFC45F1F0E9EC8004EC59D /* FieldTableViewCell.swift */; };
@@ -54,6 +54,7 @@
 
 /* Begin PBXFileReference section */
 		88F831C4AECA2D8A4FFF7E0F /* Pods-BookIt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookIt.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BookIt/Pods-BookIt.debug.xcconfig"; sourceTree = "<group>"; };
+		D3005FA91F1521F000FCD014 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		D322F4721F0BF8860097BD97 /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
 		D322F4741F0BF9B70097BD97 /* CalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
 		D363AAC11F0518F600C26579 /* SportTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SportTableViewCell.swift; sourceTree = "<group>"; };
@@ -75,7 +76,6 @@
 		D36B51BD1F0402370087E5B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D36B51D01F041EE10087E5B9 /* Field.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Field.swift; sourceTree = "<group>"; };
 		D36B51D21F041FC60087E5B9 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		D3B6365C1F13A8CF003EC7E4 /* PersistenceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
 		D3BFC45B1F0E94D2004EC59D /* FieldCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FieldCollectionViewCell.swift; sourceTree = "<group>"; };
 		D3BFC45D1F0E95EE004EC59D /* BookViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookViewController.swift; sourceTree = "<group>"; };
 		D3BFC45F1F0E9EC8004EC59D /* FieldTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FieldTableViewCell.swift; sourceTree = "<group>"; };
@@ -196,6 +196,7 @@
 				D322F4721F0BF8860097BD97 /* CustomCollectionViewCell.swift */,
 				D3BFC45B1F0E94D2004EC59D /* FieldCollectionViewCell.swift */,
 				D3BFC45F1F0E9EC8004EC59D /* FieldTableViewCell.swift */,
+				D3005FA91F1521F000FCD014 /* Data.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -217,7 +218,6 @@
 				D36B519D1F0402370087E5B9 /* SportViewController.swift */,
 				D3E62C0B1F06802600727D2E /* SettingsViewController.swift */,
 				D3BFC45D1F0E95EE004EC59D /* BookViewController.swift */,
-				D3B6365C1F13A8CF003EC7E4 /* PersistenceController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -444,9 +444,9 @@
 				D36B519E1F0402370087E5B9 /* SportViewController.swift in Sources */,
 				D3BFC45C1F0E94D2004EC59D /* FieldCollectionViewCell.swift in Sources */,
 				D36B51D11F041EE10087E5B9 /* Field.swift in Sources */,
+				D3005FAA1F1521F000FCD014 /* Data.swift in Sources */,
 				D36B51D31F041FC60087E5B9 /* User.swift in Sources */,
 				D322F4751F0BF9B70097BD97 /* CalendarViewController.swift in Sources */,
-				D3B6365D1F13A8CF003EC7E4 /* PersistenceController.swift in Sources */,
 				D322F4731F0BF8860097BD97 /* CustomCollectionViewCell.swift in Sources */,
 				D36B519C1F0402370087E5B9 /* AppDelegate.swift in Sources */,
 			);
