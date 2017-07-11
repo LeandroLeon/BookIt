@@ -1,0 +1,22 @@
+
+{
+    "Field" :
+    [
+     {"name" : "Campo1", "sport" : ".futbol7", "pricePerHour" :"19.50", "isRentable" : "true"},
+     {"name" : "Campo2", "sport" : ".futbol7","pricePerHour" : "19.50", "isRentable" : "true"},
+     {"name" : "Campo3", "sport" : ".futbol7","pricePerHour" : "19.50", "isRentable" : "true"},
+     {"name" : "Campo1", "sport" : ".futbol11","pricePerHour" : "27.0", "isRentable" : "true"},
+     {"name" : "Cancha1", "sport" : ".futsal","pricePerHour" : "18.0", "isRentable" : "true"},
+     {"name" : "Cancha2", "sport" : ".futsal","pricePerHour" : "18.0", "isRentable" : "true"},
+     {"name" : "Cancha1", "sport" : ".basket","pricePerHour" : "18.00", "isRentable" : "true"},
+     {"name" : "Cancha2", "sport" : ".basket","pricePerHour" : "18.0", "isRentable" : "true"},
+     {"name" : "Pista1", "tenis" : ".tenis","pricePerHour" : "16.0", "isRentable" : "true"},
+     {"name" : "Pista2", "sport" : ".tenis","pricePerHour" : "16.0", "isRentable" : "true"},
+     {"name" : "Cancha1", "sport" : ".padel","pricePerHour" : "18.0", "isRentable" : "true"},
+     {"name" : "Cancha2", "sport" : ".padel","pricePerHour" : "18.0", "isRentable" : "true"},
+     {"name" : "Cancha3", "sport" : ".padel","pricePerHour" : "18.0", "isRentable" : "true"},
+     {"name" : "Cancha4", "sport" : ".padel","pricePerHour" : "18.0", "isRentable" : "true"},
+     {"name" : "Piscina1", "sport" : ".piscina","pricePerHour" : "20", "isRentable" : "true"},
+     {"name" : "PiscinaClimatizada", "sport" : ".piscina","pricePerHour" : "20.0", "isRentable" : "true"}
+     ]
+};
