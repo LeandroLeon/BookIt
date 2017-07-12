@@ -7,11 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D3005FAA1F1521F000FCD014 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3005FA91F1521F000FCD014 /* Data.swift */; };
+		D3005FAE1F1527CF00FCD014 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3005FAD1F1527CF00FCD014 /* PersistenceController.swift */; };
+		D3005FB31F1534D400FCD014 /* blackSetting.png in Resources */ = {isa = PBXBuildFile; fileRef = D3005FAF1F1534D400FCD014 /* blackSetting.png */; };
+		D3005FB41F1534D400FCD014 /* close-button 24 y negro.png in Resources */ = {isa = PBXBuildFile; fileRef = D3005FB01F1534D400FCD014 /* close-button 24 y negro.png */; };
+		D3005FB51F1534D400FCD014 /* DefaultImage.png in Resources */ = {isa = PBXBuildFile; fileRef = D3005FB11F1534D400FCD014 /* DefaultImage.png */; };
+		D3005FB61F1534D400FCD014 /* futbol.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D3005FB21F1534D400FCD014 /* futbol.jpeg */; };
 		D322F4731F0BF8860097BD97 /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D322F4721F0BF8860097BD97 /* CustomCollectionViewCell.swift */; };
 		D322F4751F0BF9B70097BD97 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D322F4741F0BF9B70097BD97 /* CalendarViewController.swift */; };
 		D363AAC21F0518F600C26579 /* SportTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D363AAC11F0518F600C26579 /* SportTableViewCell.swift */; };
-		D363AAC41F05251100C26579 /* DefaultImage.png in Resources */ = {isa = PBXBuildFile; fileRef = D363AAC31F05251100C26579 /* DefaultImage.png */; };
-		D363AAC81F052D1500C26579 /* futbol.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D363AAC71F052D1400C26579 /* futbol.jpeg */; };
 		D363AACA1F05760E00C26579 /* SportEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = D363AAC91F05760E00C26579 /* SportEnum.swift */; };
 		D36B519C1F0402370087E5B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36B519B1F0402370087E5B9 /* AppDelegate.swift */; };
 		D36B519E1F0402370087E5B9 /* SportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36B519D1F0402370087E5B9 /* SportViewController.swift */; };
@@ -22,14 +26,10 @@
 		D36B51BC1F0402370087E5B9 /* BookItUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36B51BB1F0402370087E5B9 /* BookItUITests.swift */; };
 		D36B51D11F041EE10087E5B9 /* Field.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36B51D01F041EE10087E5B9 /* Field.swift */; };
 		D36B51D31F041FC60087E5B9 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36B51D21F041FC60087E5B9 /* User.swift */; };
-		D3B6365D1F13A8CF003EC7E4 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B6365C1F13A8CF003EC7E4 /* PersistenceController.swift */; };
 		D3BFC45C1F0E94D2004EC59D /* FieldCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BFC45B1F0E94D2004EC59D /* FieldCollectionViewCell.swift */; };
 		D3BFC45E1F0E95EE004EC59D /* BookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BFC45D1F0E95EE004EC59D /* BookViewController.swift */; };
 		D3BFC4601F0E9EC8004EC59D /* FieldTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BFC45F1F0E9EC8004EC59D /* FieldTableViewCell.swift */; };
-		D3CE406E1F0CF5ED009B81EA /* blackSetting.png in Resources */ = {isa = PBXBuildFile; fileRef = D3CE406D1F0CF5ED009B81EA /* blackSetting.png */; };
-		D3D644911F0A3D2A003ACC8C /* close-button 24 y negro.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D644901F0A3D2A003ACC8C /* close-button 24 y negro.png */; };
-		D3E62C041F0661C500727D2E /* Fields.json in Resources */ = {isa = PBXBuildFile; fileRef = D3E62C031F0661C500727D2E /* Fields.json */; };
-		D3E62C0A1F067FB600727D2E /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = D3E62C091F067FB600727D2E /* settings.png */; };
+		D3E62C041F0661C500727D2E /* fields.json in Resources */ = {isa = PBXBuildFile; fileRef = D3E62C031F0661C500727D2E /* fields.json */; };
 		D3E62C0C1F06802600727D2E /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E62C0B1F06802600727D2E /* SettingsViewController.swift */; };
 		D3EEF4191F0BBF6700B88557 /* Pods in Resources */ = {isa = PBXBuildFile; fileRef = D3EEF4181F0BBF6700B88557 /* Pods */; };
 		F6B453A0AD37EB209ABCD518 /* Pods_BookIt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2573C97EC04CE0AE9531285 /* Pods_BookIt.framework */; };
@@ -54,11 +54,15 @@
 
 /* Begin PBXFileReference section */
 		88F831C4AECA2D8A4FFF7E0F /* Pods-BookIt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookIt.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BookIt/Pods-BookIt.debug.xcconfig"; sourceTree = "<group>"; };
+		D3005FA91F1521F000FCD014 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		D3005FAD1F1527CF00FCD014 /* PersistenceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+		D3005FAF1F1534D400FCD014 /* blackSetting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blackSetting.png; path = Resources/blackSetting.png; sourceTree = "<group>"; };
+		D3005FB01F1534D400FCD014 /* close-button 24 y negro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "close-button 24 y negro.png"; path = "Resources/close-button 24 y negro.png"; sourceTree = "<group>"; };
+		D3005FB11F1534D400FCD014 /* DefaultImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DefaultImage.png; path = Resources/DefaultImage.png; sourceTree = "<group>"; };
+		D3005FB21F1534D400FCD014 /* futbol.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = futbol.jpeg; path = Resources/futbol.jpeg; sourceTree = "<group>"; };
 		D322F4721F0BF8860097BD97 /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
 		D322F4741F0BF9B70097BD97 /* CalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
 		D363AAC11F0518F600C26579 /* SportTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SportTableViewCell.swift; sourceTree = "<group>"; };
-		D363AAC31F05251100C26579 /* DefaultImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DefaultImage.png; path = ../../DefaultImage.png; sourceTree = "<group>"; };
-		D363AAC71F052D1400C26579 /* futbol.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = futbol.jpeg; path = ../../futbol.jpeg; sourceTree = "<group>"; };
 		D363AAC91F05760E00C26579 /* SportEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SportEnum.swift; sourceTree = "<group>"; };
 		D36B51981F0402370087E5B9 /* BookIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D36B519B1F0402370087E5B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = BookIt/AppDelegate.swift; sourceTree = "<group>"; };
@@ -75,14 +79,10 @@
 		D36B51BD1F0402370087E5B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D36B51D01F041EE10087E5B9 /* Field.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Field.swift; sourceTree = "<group>"; };
 		D36B51D21F041FC60087E5B9 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		D3B6365C1F13A8CF003EC7E4 /* PersistenceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
 		D3BFC45B1F0E94D2004EC59D /* FieldCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FieldCollectionViewCell.swift; sourceTree = "<group>"; };
 		D3BFC45D1F0E95EE004EC59D /* BookViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookViewController.swift; sourceTree = "<group>"; };
 		D3BFC45F1F0E9EC8004EC59D /* FieldTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FieldTableViewCell.swift; sourceTree = "<group>"; };
-		D3CE406D1F0CF5ED009B81EA /* blackSetting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blackSetting.png; path = ../../blackSetting.png; sourceTree = "<group>"; };
-		D3D644901F0A3D2A003ACC8C /* close-button 24 y negro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "close-button 24 y negro.png"; path = "../../close-button 24 y negro.png"; sourceTree = "<group>"; };
-		D3E62C031F0661C500727D2E /* Fields.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Fields.json; sourceTree = "<group>"; };
-		D3E62C091F067FB600727D2E /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = settings.png; path = ../settings.png; sourceTree = "<group>"; };
+		D3E62C031F0661C500727D2E /* fields.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fields.json; sourceTree = "<group>"; };
 		D3E62C0B1F06802600727D2E /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		D3EEF4181F0BBF6700B88557 /* Pods */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Pods; sourceTree = "<group>"; };
 		EE192C775EDDC84682EAB577 /* Pods-BookIt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookIt.release.xcconfig"; path = "Pods/Target Support Files/Pods-BookIt/Pods-BookIt.release.xcconfig"; sourceTree = "<group>"; };
@@ -196,6 +196,7 @@
 				D322F4721F0BF8860097BD97 /* CustomCollectionViewCell.swift */,
 				D3BFC45B1F0E94D2004EC59D /* FieldCollectionViewCell.swift */,
 				D3BFC45F1F0E9EC8004EC59D /* FieldTableViewCell.swift */,
+				D3005FA91F1521F000FCD014 /* Data.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -203,9 +204,9 @@
 		D36B51CA1F040A260087E5B9 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				D3EEF4181F0BBF6700B88557 /* Pods */,
 				D36B519F1F0402370087E5B9 /* Main.storyboard */,
 				D36B51A41F0402370087E5B9 /* LaunchScreen.storyboard */,
+				D3EEF4181F0BBF6700B88557 /* Pods */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -217,7 +218,7 @@
 				D36B519D1F0402370087E5B9 /* SportViewController.swift */,
 				D3E62C0B1F06802600727D2E /* SettingsViewController.swift */,
 				D3BFC45D1F0E95EE004EC59D /* BookViewController.swift */,
-				D3B6365C1F13A8CF003EC7E4 /* PersistenceController.swift */,
+				D3005FAD1F1527CF00FCD014 /* PersistenceController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -225,12 +226,11 @@
 		D36B51CC1F040A670087E5B9 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				D3CE406D1F0CF5ED009B81EA /* blackSetting.png */,
-				D3D644901F0A3D2A003ACC8C /* close-button 24 y negro.png */,
-				D3E62C091F067FB600727D2E /* settings.png */,
-				D363AAC71F052D1400C26579 /* futbol.jpeg */,
-				D363AAC31F05251100C26579 /* DefaultImage.png */,
-				D3E62C031F0661C500727D2E /* Fields.json */,
+				D3005FAF1F1534D400FCD014 /* blackSetting.png */,
+				D3005FB01F1534D400FCD014 /* close-button 24 y negro.png */,
+				D3005FB11F1534D400FCD014 /* DefaultImage.png */,
+				D3005FB21F1534D400FCD014 /* futbol.jpeg */,
+				D3E62C031F0661C500727D2E /* fields.json */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -248,6 +248,7 @@
 				D36B51961F0402370087E5B9 /* Resources */,
 				3E3298D4878DBE9837BBB0AC /* [CP] Embed Pods Frameworks */,
 				17C4E5CE01BC4FFE7B16D6A4 /* [CP] Copy Pods Resources */,
+				D3885D2B1F164DCE002801B6 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -349,15 +350,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				D36B51A61F0402370087E5B9 /* LaunchScreen.storyboard in Resources */,
-				D3D644911F0A3D2A003ACC8C /* close-button 24 y negro.png in Resources */,
+				D3005FB51F1534D400FCD014 /* DefaultImage.png in Resources */,
+				D3005FB61F1534D400FCD014 /* futbol.jpeg in Resources */,
 				D3EEF4191F0BBF6700B88557 /* Pods in Resources */,
-				D3E62C0A1F067FB600727D2E /* settings.png in Resources */,
-				D3CE406E1F0CF5ED009B81EA /* blackSetting.png in Resources */,
-				D363AAC81F052D1500C26579 /* futbol.jpeg in Resources */,
+				D3005FB41F1534D400FCD014 /* close-button 24 y negro.png in Resources */,
+				D3005FB31F1534D400FCD014 /* blackSetting.png in Resources */,
 				D36B51A31F0402370087E5B9 /* Assets.xcassets in Resources */,
 				D36B51A11F0402370087E5B9 /* Main.storyboard in Resources */,
-				D3E62C041F0661C500727D2E /* Fields.json in Resources */,
-				D363AAC41F05251100C26579 /* DefaultImage.png in Resources */,
+				D3E62C041F0661C500727D2E /* fields.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,16 +418,35 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-BookIt/Pods-BookIt-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
 				"${BUILT_PRODUCTS_DIR}/JTAppleCalendar/JTAppleCalendar.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JTAppleCalendar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BookIt/Pods-BookIt-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		D3885D2B1F164DCE002801B6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" e08db2b8186c162e999e3b94a1d72c0003926751 dc6abd0346a5f8c4cf5d511f907e1cc73a1ea107e6ba1762bae756d5589766a8";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -437,6 +456,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D363AACA1F05760E00C26579 /* SportEnum.swift in Sources */,
+				D3005FAE1F1527CF00FCD014 /* PersistenceController.swift in Sources */,
 				D3BFC45E1F0E95EE004EC59D /* BookViewController.swift in Sources */,
 				D363AAC21F0518F600C26579 /* SportTableViewCell.swift in Sources */,
 				D3E62C0C1F06802600727D2E /* SettingsViewController.swift in Sources */,
@@ -444,9 +464,9 @@
 				D36B519E1F0402370087E5B9 /* SportViewController.swift in Sources */,
 				D3BFC45C1F0E94D2004EC59D /* FieldCollectionViewCell.swift in Sources */,
 				D36B51D11F041EE10087E5B9 /* Field.swift in Sources */,
+				D3005FAA1F1521F000FCD014 /* Data.swift in Sources */,
 				D36B51D31F041FC60087E5B9 /* User.swift in Sources */,
 				D322F4751F0BF9B70097BD97 /* CalendarViewController.swift in Sources */,
-				D3B6365D1F13A8CF003EC7E4 /* PersistenceController.swift in Sources */,
 				D322F4731F0BF8860097BD97 /* CustomCollectionViewCell.swift in Sources */,
 				D36B519C1F0402370087E5B9 /* AppDelegate.swift in Sources */,
 			);
