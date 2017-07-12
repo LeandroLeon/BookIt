@@ -9,7 +9,6 @@
 import UIKit
 import JTAppleCalendar
 
-
 class CalendarViewController: UIViewController, JTAppleCalendarViewDataSource,JTAppleCalendarViewDelegate, UITableViewDelegate, UITableViewDataSource{
     
     @IBOutlet var year: UILabel!
@@ -31,8 +30,6 @@ class CalendarViewController: UIViewController, JTAppleCalendarViewDataSource,JT
     override func viewDidLoad() {
         super.viewDidLoad()
         setUpCalendarView()
-        
-        
         
         self.tableView.delegate = self
         self.tableView.dataSource = self
