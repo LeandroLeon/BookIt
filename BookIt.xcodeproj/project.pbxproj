@@ -204,9 +204,9 @@
 		D36B51CA1F040A260087E5B9 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				D3EEF4181F0BBF6700B88557 /* Pods */,
 				D36B519F1F0402370087E5B9 /* Main.storyboard */,
 				D36B51A41F0402370087E5B9 /* LaunchScreen.storyboard */,
+				D3EEF4181F0BBF6700B88557 /* Pods */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -248,6 +248,7 @@
 				D36B51961F0402370087E5B9 /* Resources */,
 				3E3298D4878DBE9837BBB0AC /* [CP] Embed Pods Frameworks */,
 				17C4E5CE01BC4FFE7B16D6A4 /* [CP] Copy Pods Resources */,
+				D3885D2B1F164DCE002801B6 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -433,6 +434,19 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BookIt/Pods-BookIt-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		D3885D2B1F164DCE002801B6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" e08db2b8186c162e999e3b94a1d72c0003926751 dc6abd0346a5f8c4cf5d511f907e1cc73a1ea107e6ba1762bae756d5589766a8";
 		};
 /* End PBXShellScriptBuildPhase section */
 
